@@ -74,11 +74,21 @@ body{
 	background-image: url(../Pictures/A.jpg);
         animation-delay: 0s;
 }
-
-
-.slideshow li:nth-child(5){
-	background-image: url(../Pictures/E.jpg);
+.slideshow li:nth-child(2){
+	background-image: url(../Pictures/B.jpg);
 	animation-delay: 10s;
+}
+.slideshow li:nth-child(3){
+	background-image: url(../Pictures/A.jpg);
+	animation-delay: 20s;
+}
+.slideshow li:nth-child(4){
+	background-image: url(../Pictures/B.jpg);
+	animation-delay: 30s;
+}
+.slideshow li:nth-child(5){
+	background-image: url(../Pictures/A.jpg);
+	animation-delay: 40s;
 }
 @keyframes imageAnimation{
 	0% {
